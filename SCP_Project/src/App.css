@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f7fb;
+  color: #1e293b;
+}
+
+.navbar {
+  background: #1d4ed8;
+  padding: 18px 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  margin: 0;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #fde047;
+}
+
+.container {
+  padding: 30px;
+}
+
+.hero {
+  text-align: center;
+  padding: 35px 20px;
+  background: linear-gradient(135deg, #2563eb, #38bdf8);
+  border-radius: 18px;
+  margin-bottom: 35px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: white;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #eff6ff;
+}
+
+.section-title {
+  text-align: center;
+  color: #1d4ed8;
+  margin-bottom: 25px;
+}
+
+.scp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+}
+
+.scp-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(30, 64, 175, 0.18);
+  transition: 0.3s;
+  border: 1px solid #dbeafe;
+}
+
+.scp-card:hover {
+  transform: translateY(-6px);
+}
+
+.scp-img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  background: #dbeafe;
+}
+
+.scp-content {
+  padding: 20px;
+}
+
+.scp-content h2 {
+  color: #1d4ed8;
+  margin-top: 0;
+}
+
+.scp-content h3 {
+  color: #ca8a04;
+}
+
+.scp-content p {
+  color: #334155;
+  line-height: 1.5;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: #2563eb;
+}
+
+.delete-btn {
+  background: #dc2626;
+}
+
+.form-page {
+  max-width: 650px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 18px rgba(30, 64, 175, 0.18);
+}
+
+.form-page h1 {
+  text-align: center;
+  color: #1d4ed8;
+}
+
+.scp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.scp-form label {
+  font-weight: bold;
+  color: #1d4ed8;
+}
+
+.scp-form input,
+.scp-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #bfdbfe;
+  font-size: 15px;
+}
+
+.scp-form textarea {
+  min-height: 110px;
+}
+
+.submit-btn {
+  margin-top: 15px;
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
+  background: #16a34a;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background: #15803d;
+}
+
+.message {
+  text-align: center;
+  color: #1d4ed8;
+}
